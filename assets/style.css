@@ -224,7 +224,14 @@ main { padding: 28px 0 24px; }
 @media print { .cvlist li { break-inside: avoid; padding: 0.3em 0; } .cvlist li b { color: #0b7a88; } }
 
 /* research page, career stage blocks with question headings */
-.stage { margin: 3rem 0 0; padding-top: 1.1rem; border-top: 3px solid var(--accent-tint); font-size: 1rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.stage { margin: 3rem 0 0; padding-top: 1.1rem; border-top: 3px solid var(--accent-tint); font-size: 1.05rem; font-weight: 700; letter-spacing: 0.02em; color: var(--accent); }
 .stage .meta { display: block; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 0.95rem; color: var(--muted); margin-top: 3px; }
 .theme h3.q { font-size: 1.4rem; font-weight: 700; line-height: 1.25; margin: 1.1em 0 0.5em; letter-spacing: -0.01em; }
 .stage + .theme { border-top: 0; margin-top: 1.2rem; }
+
+/* media page */
+.media-list { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+.media-list li { padding: 0.7em 0; border-bottom: 1px solid var(--rule); }
+.media-list .outlet { font-weight: 600; }
+.media-list .when { color: var(--muted); font-size: 0.9rem; margin-left: 8px; }
+.media-list .about { display: block; color: var(--ink-2); font-size: 0.95rem; margin-top: 2px; }
