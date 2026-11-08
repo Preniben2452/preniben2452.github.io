@@ -101,32 +101,7 @@
 <section class="theme" id="tools" aria-labelledby="tools-h">
   <h3 class="q" id="tools-h">How do we get from raw reads to answers?</h3>
   <p>Since joining the University of Sydney in 2025 he has written the pipelines his students and collaborators needed, then released them so other groups can use them. HiFiTaxa and AmplinkOne are postdoctoral work. Research groups in Australia, Denmark, Saudi Arabia, Brazil and Sweden use pipelines he wrote. Each one is built to run the same way on a laptop and on a cluster, with the reference databases versioned so a result can be reproduced a year later.</p>
-  <figure class="ill">
-<svg viewBox="0 0 720 300" role="img" aria-labelledby="t5 d5" xmlns="http://www.w3.org/2000/svg">
-<title id="t5">HiFiTaxa, one command from PacBio reads to taxonomy</title>
-<desc id="d5">A command line at the top, then four boxes in a row, PacBio HiFi amplicon reads, quality control and primer trimming, denoising to ASVs with DADA2, and taxonomy against GTDB or UNITE, with four classifier chips, BLCA, naive Bayes, Emu and EMITS, fanning out below the taxonomy step.</desc>
-<defs><marker id="ar5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="f3"/></marker></defs>
-<rect class="f1" x="30" y="26" width="660" height="40" rx="8"/>
-<text x="46" y="51" class="mono">$ nextflow run HiFiTaxa --marker 16S --input reads/ --classifiers blca,nb,emu</text>
-<rect class="f1 ln" x="30" y="110" width="140" height="58" rx="8"/><text x="100" y="134" text-anchor="middle" class="lab-b">PacBio HiFi</text><text x="100" y="153" text-anchor="middle" class="lab-s">amplicon reads</text>
-<rect class="f1 ln" x="205" y="110" width="140" height="58" rx="8"/><text x="275" y="134" text-anchor="middle" class="lab-b">QC and primer</text><text x="275" y="153" text-anchor="middle" class="lab-s">trimming</text>
-<rect class="f1 ln" x="380" y="110" width="140" height="58" rx="8"/><text x="450" y="134" text-anchor="middle" class="lab-b">Denoising</text><text x="450" y="153" text-anchor="middle" class="lab-s">to ASVs with DADA2</text>
-<rect class="f1 ln" x="555" y="110" width="135" height="58" rx="8"/><text x="622" y="134" text-anchor="middle" class="lab-b">Taxonomy</text><text x="622" y="153" text-anchor="middle" class="lab-s">GTDB or UNITE, versioned</text>
-<path class="ln" marker-end="url(#ar5)" d="M170 139H200"/>
-<path class="ln" marker-end="url(#ar5)" d="M345 139H375"/>
-<path class="ln" marker-end="url(#ar5)" d="M520 139H550"/>
-<path class="ln3 thin" d="M622 168 C600 190 470 190 415 206 M622 168 C612 190 540 190 506 206 M622 168 V206 M622 168 C632 190 650 190 658 206"/>
-<rect class="f2 ln2" x="380" y="206" width="70" height="26" rx="13"/><text x="415" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">BLCA</text>
-<rect class="f2 ln2" x="458" y="206" width="96" height="26" rx="13"/><text x="506" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">Naive Bayes</text>
-<rect class="f2 ln2" x="562" y="206" width="56" height="26" rx="13"/><text x="590" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">Emu</text>
-<rect class="f2 ln2" x="626" y="206" width="64" height="26" rx="13"/><text x="658" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">EMITS</text>
-<text x="30" y="214" class="lab">Outputs</text>
-<text x="30" y="234" class="lab-s">ASV and taxonomy tables, read counts,</text>
-<text x="30" y="248" class="lab-s">classifier comparison and figures</text>
-<text x="30" y="284" class="lab-s">Runs with conda, Docker or Apptainer, on a laptop or on an HPC cluster</text>
-</svg>
-<figcaption>The HiFiTaxa pipeline. Classifiers can run side by side on the same samples so their calls can be compared.</figcaption>
-</figure>
+  <figure class="ill"><img src="assets/img/illustration_tools.webp" alt="Illustration of a laptop showing sequence reads, a tree and a bar chart, beside soil and water samples in tubes" loading="lazy" width="1448" height="1086"><figcaption>From samples to sequences to tables and figures, in one command.</figcaption></figure>
   <ul class="tools">
       <li class="tool">
         <h3>HiFiTaxa</h3>
@@ -213,32 +188,7 @@
 <section class="theme" id="identity" aria-labelledby="id-h">
   <h3 class="q" id="id-h">Who are the symbionts and how are they related?</h3>
   <p>Deep sea expeditions off Brazil, where he was the only member of his group on board, started collaborations that continue today. These papers describe the symbiont lineages that recur across corals, crinoids and sponges, the names and genomes that pin down who they are, and the data released so that others can use them.</p>
-  <figure class="ill">
-<svg viewBox="0 0 720 300" role="img" aria-labelledby="t3 d3" xmlns="http://www.w3.org/2000/svg">
-<title id="t3">Shared symbionts across deep sea corals, crinoids and sponges</title>
-<desc id="d3">A deep sea coral, a crinoid and a glass sponge on the seafloor, each carrying the same two symbiont lineages, Endozoicomonadaceae and Nitrosopumilaceae, with dashed arcs showing the lineages recurring across hosts.</desc>
-<path class="f2" d="M0 250 C60 244 120 256 180 250 S300 244 360 250 S480 256 540 250 S660 244 720 250 V300 H0 Z"/>
-<path class="ln" d="M0 250 C60 244 120 256 180 250 S300 244 360 250 S480 256 540 250 S660 244 720 250"/>
-<path class="ln" style="stroke-width:3" d="M120 250 V190 M120 210 C100 200 92 180 88 160 M120 196 C140 186 150 166 152 146 M88 160 C80 150 84 136 90 128 M152 146 C160 136 166 124 164 112 M120 190 C118 170 124 150 130 136"/>
-<path class="ln2" d="M360 250 V200"/>
-<circle class="f2 ln2" cx="360" cy="196" r="8"/>
-<path class="ln2" d="M360 190 C350 160 330 140 316 128 M360 190 C370 160 390 140 404 128 M360 190 C340 170 320 160 300 156 M360 190 C380 170 400 160 420 156 M360 190 C356 160 352 136 356 118 M360 190 C364 160 368 136 364 118"/>
-<path class="glass" d="M560 250 C552 220 554 180 566 150 C572 134 592 130 606 130 C620 130 640 134 646 150 C658 180 660 220 652 250 Z"/>
-<ellipse class="glass" cx="606" cy="132" rx="38" ry="8"/>
-<circle class="p1" cx="104" cy="176" r="5"/><circle class="p2" cx="134" cy="160" r="5"/><circle class="p1" cx="150" cy="150" r="5"/>
-<circle class="p1" cx="330" cy="150" r="5"/><circle class="p2" cx="372" cy="146" r="5"/><circle class="p1" cx="404" cy="152" r="5"/>
-<circle class="p2" cx="590" cy="200" r="5"/><circle class="p1" cx="616" cy="180" r="5"/><circle class="p2" cx="628" cy="214" r="5"/>
-<path class="ln3 dash" d="M160 140 C220 90 300 90 330 136"/>
-<path class="ln3 dash" d="M410 140 C470 90 560 100 596 150"/>
-<text x="120" y="282" text-anchor="middle" class="lab">Deep sea coral</text>
-<text x="360" y="282" text-anchor="middle" class="lab">Crinoid</text>
-<text x="606" y="282" text-anchor="middle" class="lab">Glass sponge</text>
-<circle class="p1" cx="30" cy="34" r="5"/><text x="42" y="38" class="lab-s">Endozoicomonadaceae</text>
-<circle class="p2" cx="30" cy="54" r="5"/><text x="42" y="58" class="lab-s">Nitrosopumilaceae</text>
-<text x="380" y="60" text-anchor="middle" class="lab-s">The same symbiont lineages recur across hosts</text>
-</svg>
-<figcaption>Corals, crinoids and sponges collected on deep sea expeditions off Brazil carry recurring symbiont lineages, which raises questions about host specificity and shared nitrogen cycling.</figcaption>
-</figure>
+  <figure class="ill"><img src="assets/img/illustration_identity.webp" alt="Illustration of a deep sea coral, a crinoid and a sponge on rock, each above a circle of its microbial symbionts" loading="lazy" width="1448" height="1086"><figcaption>Corals, crinoids and sponges from the deep South Atlantic and the symbiont lineages that recur across them.</figcaption></figure>
   <ul class="pubs">
   
     <li class="pub" id="p-crinoids">
