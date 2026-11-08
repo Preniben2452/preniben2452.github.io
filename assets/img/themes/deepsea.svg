@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"><style>.ln { fill: none; stroke: #1f4e5f; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln2 { fill: none; stroke: #c8a977; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln3 { fill: none; stroke: #8a8a8a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }.thin { stroke-width: 1.2; }.dash { stroke-dasharray: 5 5; }.f1 { fill: #dce8ec; }.f2 { fill: #efe4cf; }.f3 { fill: #1f4e5f; }.f4 { fill: #c8a977; }.fb { fill: #ffffff; }.lab { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; fill: #3d3d3d; }.lab-s { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #6b6b6b; }.lab-b { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #1f4e5f; }.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11.5px; fill: #212121; }.glass { fill: #ffffff; stroke: #1f4e5f; stroke-width: 2; }.p1 { fill: #1f4e5f; }.p2 { fill: #c8a977; }.p3 { fill: #dce8ec; stroke: #1f4e5f; stroke-width: 1.5; }.p4 { fill: #efe4cf; stroke: #c8a977; stroke-width: 1.5; }.p5 { fill: #8a8a8a; }.p6 { fill: #ffffff; stroke: #3d3d3d; stroke-width: 1.5; }.p0 { fill: #ffffff; stroke: #d0d0d0; stroke-width: 1; } svg{background:#ffffff}</style>
+<title id="t3">Shared symbionts across deep sea corals, crinoids and sponges</title>
+<desc id="d3">A deep sea coral, a crinoid and a glass sponge on the seafloor, each carrying the same two symbiont lineages, Endozoicomonadaceae and Nitrosopumilaceae, with dashed arcs showing the lineages recurring across hosts.</desc>
+<path class="f2" d="M0 250 C60 244 120 256 180 250 S300 244 360 250 S480 256 540 250 S660 244 720 250 V300 H0 Z"/>
+<path class="ln" d="M0 250 C60 244 120 256 180 250 S300 244 360 250 S480 256 540 250 S660 244 720 250"/>
+<path class="ln" style="stroke-width:3" d="M120 250 V190 M120 210 C100 200 92 180 88 160 M120 196 C140 186 150 166 152 146 M88 160 C80 150 84 136 90 128 M152 146 C160 136 166 124 164 112 M120 190 C118 170 124 150 130 136"/>
+<path class="ln2" d="M360 250 V200"/>
+<circle class="f2 ln2" cx="360" cy="196" r="8"/>
+<path class="ln2" d="M360 190 C350 160 330 140 316 128 M360 190 C370 160 390 140 404 128 M360 190 C340 170 320 160 300 156 M360 190 C380 170 400 160 420 156 M360 190 C356 160 352 136 356 118 M360 190 C364 160 368 136 364 118"/>
+<path class="glass" d="M560 250 C552 220 554 180 566 150 C572 134 592 130 606 130 C620 130 640 134 646 150 C658 180 660 220 652 250 Z"/>
+<ellipse class="glass" cx="606" cy="132" rx="38" ry="8"/>
+<circle class="p1" cx="104" cy="176" r="5"/><circle class="p2" cx="134" cy="160" r="5"/><circle class="p1" cx="150" cy="150" r="5"/>
+<circle class="p1" cx="330" cy="150" r="5"/><circle class="p2" cx="372" cy="146" r="5"/><circle class="p1" cx="404" cy="152" r="5"/>
+<circle class="p2" cx="590" cy="200" r="5"/><circle class="p1" cx="616" cy="180" r="5"/><circle class="p2" cx="628" cy="214" r="5"/>
+<path class="ln3 dash" d="M160 140 C220 90 300 90 330 136"/>
+<path class="ln3 dash" d="M410 140 C470 90 560 100 596 150"/>
+<text x="120" y="282" text-anchor="middle" class="lab">Deep sea coral</text>
+<text x="360" y="282" text-anchor="middle" class="lab">Crinoid</text>
+<text x="606" y="282" text-anchor="middle" class="lab">Glass sponge</text>
+<circle class="p1" cx="30" cy="34" r="5"/><text x="42" y="38" class="lab-s">Endozoicomonadaceae</text>
+<circle class="p2" cx="30" cy="54" r="5"/><text x="42" y="58" class="lab-s">Nitrosopumilaceae</text>
+<text x="380" y="60" text-anchor="middle" class="lab-s">The same symbiont lineages recur across hosts</text>
+</svg>

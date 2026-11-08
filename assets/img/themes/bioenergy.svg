@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"><style>.ln { fill: none; stroke: #1f4e5f; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln2 { fill: none; stroke: #c8a977; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln3 { fill: none; stroke: #8a8a8a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }.thin { stroke-width: 1.2; }.dash { stroke-dasharray: 5 5; }.f1 { fill: #dce8ec; }.f2 { fill: #efe4cf; }.f3 { fill: #1f4e5f; }.f4 { fill: #c8a977; }.fb { fill: #ffffff; }.lab { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; fill: #3d3d3d; }.lab-s { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #6b6b6b; }.lab-b { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #1f4e5f; }.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11.5px; fill: #212121; }.glass { fill: #ffffff; stroke: #1f4e5f; stroke-width: 2; }.p1 { fill: #1f4e5f; }.p2 { fill: #c8a977; }.p3 { fill: #dce8ec; stroke: #1f4e5f; stroke-width: 1.5; }.p4 { fill: #efe4cf; stroke: #c8a977; stroke-width: 1.5; }.p5 { fill: #8a8a8a; }.p6 { fill: #ffffff; stroke: #3d3d3d; stroke-width: 1.5; }.p0 { fill: #ffffff; stroke: #d0d0d0; stroke-width: 1; } svg{background:#ffffff}</style>
+<title id="t6">Hydrogen and methane from palm oil mill effluent</title>
+<desc id="d6">A process flow from a palm oil mill to an effluent tank, an enzyme hydrolysis flask using Ricinus communis enzymes, a dark fermentation reactor with a mixed microbial consortium, and two outputs, hydrogen and methane.</desc>
+<defs><marker id="ar6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="f3"/></marker></defs>
+<text x="30" y="40" class="lab-b">Hydrogen first, then methane from what is left</text>
+<path class="ln2" d="M80 250 C84 210 86 170 82 130"/>
+<path class="ln2" d="M82 130 C60 118 40 120 24 134 M82 130 C104 118 124 120 140 134 M82 130 C70 108 56 100 40 100 M82 130 C94 108 108 100 124 100 M82 130 C78 110 80 94 86 84"/>
+<text x="82" y="270" text-anchor="middle" class="lab-s">Oil palm</text>
+<rect class="f2 ln" x="160" y="160" width="110" height="90" rx="6"/>
+<path class="ln2" d="M170 182 C182 174 194 190 206 182 S230 174 242 182 S260 190 262 182"/>
+<text x="215" y="270" text-anchor="middle" class="lab-s">Palm oil mill</text>
+<text x="215" y="284" text-anchor="middle" class="lab-s">effluent (POME)</text>
+<path class="ln" marker-end="url(#ar6)" d="M272 205H304"/>
+<path class="f1 ln" d="M340 160 V190 L312 246 Q310 252 318 252 H386 Q394 252 392 246 L364 190 V160 Z"/>
+<path class="ln" d="M334 160 H370"/>
+<text x="352" y="270" text-anchor="middle" class="lab-s">Hydrolysis with</text>
+<text x="352" y="284" text-anchor="middle" class="lab-s">Ricinus communis enzymes</text>
+<path class="ln" marker-end="url(#ar6)" d="M398 205H432"/>
+<rect class="f1 ln" x="440" y="130" width="120" height="120" rx="10"/>
+<path class="ln3" d="M500 118 V200 M482 200 H518"/>
+<circle class="fb ln thin" cx="470" cy="232" r="4"/><circle class="fb ln thin" cx="522" cy="238" r="3"/><circle class="fb ln thin" cx="500" cy="222" r="3"/><circle class="fb ln thin" cx="540" cy="226" r="2.5"/>
+<text x="500" y="270" text-anchor="middle" class="lab-s">Dark fermentation,</text>
+<text x="500" y="284" text-anchor="middle" class="lab-s">mixed consortium</text>
+<path class="ln" marker-end="url(#ar6)" d="M560 165 C590 150 610 130 634 118"/>
+<circle class="f1 ln" cx="660" cy="112" r="20"/><text x="660" y="117" text-anchor="middle" class="lab-b">H₂</text>
+<path class="ln" marker-end="url(#ar6)" d="M560 215 C590 222 610 230 634 236"/>
+<circle class="f2 ln2" cx="660" cy="240" r="20"/><text x="660" y="245" text-anchor="middle" class="lab-b">CH₄</text>
+</svg>

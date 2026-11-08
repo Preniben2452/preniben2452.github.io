@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"><style>.ln { fill: none; stroke: #1f4e5f; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln2 { fill: none; stroke: #c8a977; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln3 { fill: none; stroke: #8a8a8a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }.thin { stroke-width: 1.2; }.dash { stroke-dasharray: 5 5; }.f1 { fill: #dce8ec; }.f2 { fill: #efe4cf; }.f3 { fill: #1f4e5f; }.f4 { fill: #c8a977; }.fb { fill: #ffffff; }.lab { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; fill: #3d3d3d; }.lab-s { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #6b6b6b; }.lab-b { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #1f4e5f; }.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11.5px; fill: #212121; }.glass { fill: #ffffff; stroke: #1f4e5f; stroke-width: 2; }.p1 { fill: #1f4e5f; }.p2 { fill: #c8a977; }.p3 { fill: #dce8ec; stroke: #1f4e5f; stroke-width: 1.5; }.p4 { fill: #efe4cf; stroke: #c8a977; stroke-width: 1.5; }.p5 { fill: #8a8a8a; }.p6 { fill: #ffffff; stroke: #3d3d3d; stroke-width: 1.5; }.p0 { fill: #ffffff; stroke: #d0d0d0; stroke-width: 1; } svg{background:#ffffff}</style>
+<title id="t2">A deep sea sponge holobiont running on ammonia and recalcitrant carbon</title>
+<desc id="d2">A glass sponge at 830 metres with ammonia oxidising archaea, heterotrophic bacteria and a phage inside. Host ammonia and dissolved carbon dioxide feed the archaea, marine snow polysaccharides feed the bacteria, and fumarate and vitamin B12 are exchanged between partners.</desc>
+<defs><marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="f3"/></marker><marker id="ar2b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="f4"/></marker><clipPath id="cp2"><path d="M300 282 C262 244 250 172 270 112 C284 72 330 58 360 58 C390 58 436 72 450 112 C470 172 458 244 420 282 Z"/></clipPath></defs>
+<text x="30" y="30" class="lab-b">830 m, no light</text>
+<circle class="f4" cx="150" cy="62" r="2.5"/><circle class="f4" cx="236" cy="44" r="2"/><circle class="f4" cx="560" cy="52" r="2.5"/><circle class="f4" cx="612" cy="84" r="2"/><circle class="f4" cx="660" cy="40" r="2.5"/><circle class="f4" cx="204" cy="86" r="2"/>
+<path class="glass" d="M300 282 C262 244 250 172 270 112 C284 72 330 58 360 58 C390 58 436 72 450 112 C470 172 458 244 420 282 Z"/>
+<g clip-path="url(#cp2)" opacity="0.4"><path class="ln thin" d="M250 120 L470 260 M470 120 L250 260 M250 190 H470 M290 60 L430 300 M430 60 L290 300 M250 150 L470 230 M470 150 L250 230"/></g>
+<ellipse class="glass" cx="360" cy="60" rx="56" ry="11"/>
+<circle class="f1 ln" cx="330" cy="150" r="15"/>
+<circle class="f1 ln" cx="388" cy="172" r="15"/>
+<circle class="f1 ln" cx="348" cy="214" r="15"/>
+<rect class="f2 ln2" x="394" y="218" width="30" height="13" rx="6.5"/>
+<rect class="f2 ln2" x="300" y="246" width="30" height="13" rx="6.5"/>
+<polygon class="f3" points="364,254 371,258 371,266 364,270 357,266 357,258"/>
+<text x="40" y="118" class="lab">Host ammonia (NH₃)</text>
+<path class="ln" marker-end="url(#ar2)" d="M168 114 C220 118 270 134 312 146"/>
+<text x="40" y="168" class="lab">Dissolved CO₂</text>
+<path class="ln" marker-end="url(#ar2)" d="M142 164 C200 170 260 190 316 210"/>
+<text x="40" y="214" class="lab-s">Ammonia oxidation and carbon fixation</text>
+<text x="40" y="228" class="lab-s">by ammonia oxidising archaea</text>
+<text x="488" y="118" class="lab">Marine snow polysaccharides</text>
+<path class="ln2" marker-end="url(#ar2b)" d="M520 126 C500 160 470 200 430 222"/>
+<text x="488" y="170" class="lab">Fumarate and vitamin B12</text>
+<text x="488" y="186" class="lab-s">exchanged between archaeon,</text>
+<text x="488" y="200" class="lab-s">bacterium and phage</text>
+<text x="488" y="250" class="lab-s">Heterotrophic bacteria degrade</text>
+<text x="488" y="264" class="lab-s">recalcitrant carbon</text>
+</svg>

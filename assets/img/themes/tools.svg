@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"><style>.ln { fill: none; stroke: #1f4e5f; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln2 { fill: none; stroke: #c8a977; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }.ln3 { fill: none; stroke: #8a8a8a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }.thin { stroke-width: 1.2; }.dash { stroke-dasharray: 5 5; }.f1 { fill: #dce8ec; }.f2 { fill: #efe4cf; }.f3 { fill: #1f4e5f; }.f4 { fill: #c8a977; }.fb { fill: #ffffff; }.lab { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; fill: #3d3d3d; }.lab-s { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #6b6b6b; }.lab-b { font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #1f4e5f; }.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11.5px; fill: #212121; }.glass { fill: #ffffff; stroke: #1f4e5f; stroke-width: 2; }.p1 { fill: #1f4e5f; }.p2 { fill: #c8a977; }.p3 { fill: #dce8ec; stroke: #1f4e5f; stroke-width: 1.5; }.p4 { fill: #efe4cf; stroke: #c8a977; stroke-width: 1.5; }.p5 { fill: #8a8a8a; }.p6 { fill: #ffffff; stroke: #3d3d3d; stroke-width: 1.5; }.p0 { fill: #ffffff; stroke: #d0d0d0; stroke-width: 1; } svg{background:#ffffff}</style>
+<title id="t5">HiFiTaxa, one command from PacBio reads to taxonomy</title>
+<desc id="d5">A command line at the top, then four boxes in a row, PacBio HiFi amplicon reads, quality control and primer trimming, denoising to ASVs with DADA2, and taxonomy against GTDB or UNITE, with four classifier chips, BLCA, naive Bayes, Emu and EMITS, fanning out below the taxonomy step.</desc>
+<defs><marker id="ar5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="f3"/></marker></defs>
+<rect class="f1" x="30" y="26" width="660" height="40" rx="8"/>
+<text x="46" y="51" class="mono">$ nextflow run HiFiTaxa --marker 16S --input reads/ --classifiers blca,nb,emu</text>
+<rect class="f1 ln" x="30" y="110" width="140" height="58" rx="8"/><text x="100" y="134" text-anchor="middle" class="lab-b">PacBio HiFi</text><text x="100" y="153" text-anchor="middle" class="lab-s">amplicon reads</text>
+<rect class="f1 ln" x="205" y="110" width="140" height="58" rx="8"/><text x="275" y="134" text-anchor="middle" class="lab-b">QC and primer</text><text x="275" y="153" text-anchor="middle" class="lab-s">trimming</text>
+<rect class="f1 ln" x="380" y="110" width="140" height="58" rx="8"/><text x="450" y="134" text-anchor="middle" class="lab-b">Denoising</text><text x="450" y="153" text-anchor="middle" class="lab-s">to ASVs with DADA2</text>
+<rect class="f1 ln" x="555" y="110" width="135" height="58" rx="8"/><text x="622" y="134" text-anchor="middle" class="lab-b">Taxonomy</text><text x="622" y="153" text-anchor="middle" class="lab-s">GTDB or UNITE, versioned</text>
+<path class="ln" marker-end="url(#ar5)" d="M170 139H200"/>
+<path class="ln" marker-end="url(#ar5)" d="M345 139H375"/>
+<path class="ln" marker-end="url(#ar5)" d="M520 139H550"/>
+<path class="ln3 thin" d="M622 168 C600 190 470 190 415 206 M622 168 C612 190 540 190 506 206 M622 168 V206 M622 168 C632 190 650 190 658 206"/>
+<rect class="f2 ln2" x="380" y="206" width="70" height="26" rx="13"/><text x="415" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">BLCA</text>
+<rect class="f2 ln2" x="458" y="206" width="96" height="26" rx="13"/><text x="506" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">Naive Bayes</text>
+<rect class="f2 ln2" x="562" y="206" width="56" height="26" rx="13"/><text x="590" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">Emu</text>
+<rect class="f2 ln2" x="626" y="206" width="64" height="26" rx="13"/><text x="658" y="223" text-anchor="middle" class="lab-s" style="fill:var(--ink-2)">EMITS</text>
+<text x="30" y="214" class="lab">Outputs</text>
+<text x="30" y="234" class="lab-s">ASV and taxonomy tables, read counts,</text>
+<text x="30" y="248" class="lab-s">classifier comparison and figures</text>
+<text x="30" y="284" class="lab-s">Runs with conda, Docker or Apptainer, on a laptop or on an HPC cluster</text>
+</svg>
