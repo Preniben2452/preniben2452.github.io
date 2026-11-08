@@ -249,4 +249,5 @@ main { padding: 0; }
 .tool p { margin: 0 0 0.7em; }
 .tool .links { margin-top: auto; padding-top: 0.2em; margin-bottom: 0; }
 .tools { gap: 16px; align-items: stretch; }
-.content .tool p { text-align: left; hyphens: manual; }
+.content .tool p { text-align: justify; hyphens: auto; }
+.content .tool .venue, .content .tool .links { text-align: left; }
