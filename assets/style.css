@@ -64,8 +64,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.4em 0; }
 @media (min-width: 880px) { .layout { grid-template-columns: 270px minmax(0, 1fr); gap: 56px; padding-top: 0; } .side { position: sticky; top: 74px; align-self: start; margin-top: -72px; } .content { padding-top: 30px; } }
 .side .portrait { width: 100%; max-width: 240px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; display: block; box-shadow: 0 2px 10px rgba(0,0,0,0.14); }
 .side .name { font-size: 1.3rem; font-weight: 700; margin: 14px 0 4px; line-height: 1.25; }
-.side .role { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 8px; color: var(--ink-2); font-size: 0.93rem; line-height: 1.45; }
-.side .role li { padding-left: 1.7em; text-indent: -1.7em; }
+.side .role { margin: 0 0 16px; display: grid; gap: 8px; color: var(--ink-2); font-size: 0.93rem; line-height: 1.45; }
+.side .role p { margin: 0; padding-left: 1.7em; text-indent: -1.7em; text-align: left; hyphens: manual; }
 .side .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
 .side .links a { display: flex; align-items: center; gap: 10px; color: var(--ink-2); text-decoration: none; font-size: 0.95rem; }
 .side .links a:hover { color: var(--accent); }
