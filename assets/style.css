@@ -251,3 +251,7 @@ main { padding: 0; }
 .tools { gap: 16px; align-items: stretch; }
 .content .tool p { text-align: justify; hyphens: auto; }
 .content .tool .venue, .content .tool .links { text-align: left; }
+.content h3.year { font-size: 1.02rem; font-weight: 700; color: var(--ink-2); margin: 1.6rem 0 0; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+.content h2 + h3.year { margin-top: 0.9rem; }
+.content h3.year + .items { margin-top: 0; }
+.content h3.year + .items .item:first-child { border-top: 0; }
